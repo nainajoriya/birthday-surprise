@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Sir ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         OPENING SCREEN
+    ========================== -->
+
+    <section id="opening" class="opening">
+
+        <div class="opening-content">
+
+            <div class="balloons">
+                🎈 🎈 🎈
+            </div>
+
+            <p class="small-title">
+                A Special Day For A Special Teacher
+            </p>
+
+            <h1>
+                🎂 Happy Birthday Sir 🎂
+            </h1>
+
+            <p class="opening-text">
+                Today is not just another day...
+                It's a day to celebrate someone special.
+            </p>
+
+            <button onclick="openSurprise()">
+                ✨ Open Your Birthday Surprise ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main id="mainContent">
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="label">
+                    A SPECIAL WISH
+                </p>
+
+                <h1>
+                    🎉 Happy Birthday Sir 🎉
+                </h1>
+
+                <p>
+                    A small surprise created with
+                    lots of respect, gratitude and love.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SIR PHOTO
+        ========================== -->
+
+        <section class="sir-section">
+
+            <p class="label">
+                THE PERSON BEHIND THE LEARNING
+            </p>
+
+            <h2>
+                👨‍🏫 Our Amazing Sir
+            </h2>
+
+            <div class="sir-card">
+
+                <img src="sir_image.jpeg"
+                     alt="Sir's Photo">
+
+                <div class="sir-message">
+
+                    <h3>
+                        🌟 A Teacher Who Inspires
+                    </h3>
+
+                    <p>
+                        A great teacher doesn't just teach lessons,
+                        they inspire students to believe in themselves.
+                    </p>
+
+                    <p>
+                        Thank you Sir for sharing your knowledge,
+                        patience and guidance with us.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BIRTHDAY MESSAGE
+        ========================== -->
+
+        <section class="message-section">
+
+            <div class="glass-card">
+
+                <p class="label">
+                    FROM YOUR STUDENT
+                </p>
+
+                <h2>
+                    💌 A Small Birthday Message
+                </h2>
+
+                <p class="big-message">
+
+                    Dear Anukul Sir,
+
+                    <br><br>
+
+                    On your special day, I just want to say
+                    thank you for being such an amazing teacher.
+
+                    <br><br>
+
+                    Your guidance has made learning easier,
+                    more interesting and more meaningful.
+
+                    <br><br>
+
+                    May this birthday bring you happiness,
+                    success and many beautiful moments.
+
+                    <br><br>
+
+                    <strong>
+                        Wishing you a very Happy Birthday, Sir! ❤️
+                    </strong>
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             STUDENT MEMORY
+        ========================== -->
+
+        <section class="memory-section">
+
+            <p class="label">
+                A BEAUTIFUL MEMORY
+            </p>
+
+            <h2>
+                📸 A Special Moment With Students
+            </h2>
+
+            <div class="memory-card">
+
+                <img src="students.jpeg"
+                     alt="Sir with students">
+
+                <div class="memory-text">
+
+                    <h3>
+                        ❤️ A Memory To Remember
+                    </h3>
+
+                    <p>
+                        Some moments become memories,
+                        and some memories stay special forever.
+                    </p>
+
+                    <p>
+                        This is one such beautiful moment
+                        that will always be remembered.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BIRTHDAY SONG
+        ========================== -->
+
+        <section class="song-section">
+
+            <div class="glass-card">
+
+                <p class="label">
+                    A LITTLE MUSIC
+                </p>
+
+                <h2>
+                    🎵 Birthday Song
+                </h2>
+
+                <p>
+                    A special song for a special day.
+                </p>
+
+                <audio id="birthdaySong">
+                    <source src="happy-birthday.mp3"
+                            type="audio/mpeg">
+                </audio>
+
+                <div class="song-buttons">
+
+                    <button onclick="playSong()">
+                        ▶️ Play Song
+                    </button>
+
+                    <button onclick="stopSong()">
+                        ⏹ Stop
+                    </button>
+
+                </div>
+
+                <p id="songStatus">
+                    🎶 Tap Play to start the song
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BIRTHDAY WISHES
+        ========================== -->
+
+        <section class="wishes-section">
+
+            <p class="label">
+                SPECIAL WISHES
+            </p>
+
+            <h2>
+                ✨ Birthday Wishes For You
+            </h2>
+
+            <div class="wish-grid">
+
+                <div class="wish-card">
+                    <div class="wish-icon">🌟</div>
+                    <h3>Success</h3>
+                    <p>
+                        May you achieve every goal
+                        you dream of.
+                    </p>
+                </div>
+
+
+                <div class="wish-card">
+                    <div class="wish-icon">😊</div>
+                    <h3>Happiness</h3>
+                    <p>
+                        May your life always be
+                        filled with happiness.
+                    </p>
+                </div>
+
+
+                <div class="wish-card">
+                    <div class="wish-icon">💡</div>
+                    <h3>Inspiration</h3>
+                    <p>
+                        May you continue inspiring
+                        many students.
+                    </p>
+                </div>
+
+
+                <div class="wish-card">
+                    <div class="wish-icon">❤️</div>
+                    <h3>Good Memories</h3>
+                    <p>
+                        May every year bring
+                        beautiful memories.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             POETRY
+        ========================== -->
+
+        <section class="poetry-section">
+
+            <div class="poetry-card">
+
+                <p class="label">
+                    A FEW WORDS FOR YOU
+                </p>
+
+                <h2>
+                    ✍️ A Teacher's Journey
+                </h2>
+
+                <p class="poetry">
+
+                    Kitabon se jo zindagi ko samjhate hain,<br>
+                    Mushkilon mein bhi raasta dikhate hain.<br><br>
+
+                    Sirf padhate nahi, hausla bhi badhate hain,<br>
+                    Teacher wahi hain jo sapne jagate hain.<br><br>
+
+                    Aapki guidance hamesha yaad rahegi,<br>
+                    Aapki har seekh dil ke paas rahegi.<br><br>
+
+                    Aaj ke din bas itni si dua hai,<br>
+                    Aapki zindagi hamesha khushiyon se bhari rahe. ❤️
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ONE MORE SURPRISE
+        ========================== -->
+
+        <section class="surprise-section">
+
+            <p class="label">
+                WAIT... THERE'S MORE
+            </p>
+
+            <h2>
+                🎁 One More Surprise
+            </h2>
+
+            <p>
+                Birthday surprise yahin khatam nahi hota...
+            </p>
+
+            <button onclick="showQR()">
+                🔐 Open The Secret Surprise
+            </button>
+
+
+            <!-- QR BOX -->
+
+            <div id="qrBox" class="qr-box">
+
+                <h3>
+                    📱 Scan This QR
+                </h3>
+
+                <p>
+                    Sir, this QR code contains
+                    another special surprise for you. ❤️
+                </p>
+
+                <img src="teacher_surprise_qr.png"
+                     alt="Teacher Surprise QR Code">
+
+                <p class="qr-note">
+                    Scan the QR code with your phone camera.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FINAL MESSAGE
+        ========================== -->
+
+        <section class="final-section">
+
+            <div class="final-card">
+
+                <div class="heart">
+                    ❤️
+                </div>
+
+                <h2>
+                    Thank You, Anukul Sir!
+                </h2>
+
+                <p>
+                    Thank you for being a teacher,
+                    mentor and inspiration.
+                </p>
+
+                <p>
+                    Your lessons will always be
+                    a part of our journey.
+                </p>
+
+                <h3>
+                    🎂 Happy Birthday Once Again! 🎂
+                </h3>
+
+                <p class="signature">
+                    — With Respect & Gratitude
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+
+        <footer>
+
+            <p>
+                Made with ❤️ using Python & Web Technologies
+            </p>
+
+            <p>
+                A small digital memory for a special teacher.
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
